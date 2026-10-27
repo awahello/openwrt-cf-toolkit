@@ -1,0 +1,23 @@
+# 构建产物
+dist/
+*.ipk
+*.apk
+*.lmo
+
+# Python
+__pycache__/
+*.pyc
+
+# 中间产物
+work/
+.check/
+*.log
+*.bak
+*.bak2
+*.orig
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+.DS_Store
