@@ -1,0 +1,9 @@
+# 统一用 LF。这些脚本要跑到 Linux / OpenWrt 上，
+# CRLF 会导致 sh 报 "not found" 之类的诡异错误。
+* text=auto eol=lf
+
+*.sh   text eol=lf
+*.py   text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
+LICENSE text eol=lf
